@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Hoodie-white",
+    "price": 49.99,
+    "imgUrl": "/imgs/hoodie_white.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hoodie-black",
+    "price": 49.99,
+    "imgUrl": "/imgs/hoodie_black.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Hoodie-pink",
+    "price": 49.99,
+    "imgUrl": "/imgs/hoodie_pink.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Hoodie-camo",
+    "price": 49.99,
+    "imgUrl": "/imgs/hoodie_camo.jpg"
+  }
+]
