@@ -7,9 +7,9 @@ import mainLogo from "../../src/assets/logos/gogetterz_logo_100.png";
 export function NavBar() {
   const { openCart, cartQuantity } = useShoppingCart();
   return (
-    <NavBarBs sticky="top" className="bg-white shadow-sm mb-3">
+    <NavBarBs fixed="top" className="bg-white shadow mb-4" style={{ height: "70px" }}>
       <Container>
-        <img src={mainLogo} style={{ width: "15%", marginRight:"10px" }} />
+        <img src={mainLogo} style={{ height: "70px", marginRight: "10px" }} />
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
             Home
