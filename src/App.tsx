@@ -10,7 +10,7 @@ function App() {
   return (
     <ShoppingCartProvider>
       <NavBar />
-      <Container className="mb-4">
+      <Container style={{ marginTop: "70px", padding:"50px 10px" }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />
