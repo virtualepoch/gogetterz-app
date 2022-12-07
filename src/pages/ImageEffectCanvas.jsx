@@ -1,6 +1,17 @@
 import { useEffect, useRef } from "react";
 
 export function ImageEffectCanvas() {
+  const style = {
+    canvas: {
+      width: "100%",
+      maxWidth: "500px",
+      boxShadow: "2px 7px 10px 2px rgba(0,0,0,0.5)",
+      position: "fixed",
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)",
+    },
+  };
   const canvasRef = useRef(null);
   const myImage = new Image();
 
@@ -91,5 +102,5 @@ export function ImageEffectCanvas() {
     }
     animate();
   }, []);
-  return <canvas ref={canvasRef} style={{ width: "100%", maxWidth: "500px", border: "1px solid black", borderRadius: "10px", boxShadow: "2px 7px 10px 2px rgba(0,0,0,0.5)", margin: "10px 0 50px 0" }}></canvas>;
+  return <canvas ref={canvasRef} style={style.canvas}></canvas>;
 }

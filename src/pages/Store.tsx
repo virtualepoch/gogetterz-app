@@ -4,7 +4,7 @@ import storeItems from "../data/items.json";
 
 export function Store() {
   return (
-    <>
+    <div className="store-container">
       <h1>Store</h1>
       <Row xs={1} md={2} lg={3} className="g-3">
         {storeItems.map((item) => (
@@ -13,6 +13,6 @@ export function Store() {
           </Col>
         ))}
       </Row>
-    </>
+    </div>
   );
 }
