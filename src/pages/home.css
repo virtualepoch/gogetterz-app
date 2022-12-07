@@ -1,0 +1,19 @@
+.home-container {
+  width: 100%;
+  background: black;
+}
+.home-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.img-1 {
+  animation: fade-out 10s ease-in-out infinite;
+}
+@keyframes fade-out {
+  50% {
+    opacity: 0;
+  }
+}
