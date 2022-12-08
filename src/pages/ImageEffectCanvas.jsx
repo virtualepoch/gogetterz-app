@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import image from "../assets/logos/gogetterz_01_100.jpg";
 
 export function ImageEffectCanvas() {
   const style = {
@@ -12,6 +13,23 @@ export function ImageEffectCanvas() {
       transform: "translate(-50%, -50%)",
     },
   };
+
+  // const base64 = convertBase64(image);
+
+  // const convertBase64 = (image) => {
+  //   return new Promise((resolve, reject) => {
+  //     const fileReader = new FileReader();
+  //     fileReader.readAsDataURL(image);
+  //     fileReader.onload = () => {
+  //       resolve(fileReader.result);
+  //     };
+
+  //     fileReader.onerror = (error) => {
+  //       reject(error);
+  //     };
+  //   });
+  // };
+
   const canvasRef = useRef(null);
   const myImage = new Image();
 

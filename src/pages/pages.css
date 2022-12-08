@@ -172,9 +172,9 @@
   width: 100%;
   min-height: calc(100vh - 70px);
   padding: 50px 0;
-  background: black;
+  background: url(../assets/logos/gogetterz_01_500.png) 50% 50%/ 50% no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Container, Nav, Navbar as NavBarBs } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useShoppingCart } from "../context/ShoppingCartContext";
-import mainLogo from "../../src/assets/logos/gogetterz_02_100.png";
+import mainLogo from "../../src/assets/logos/gogetterz_01_100_trans.png";
 
 export function NavBar() {
   const { openCart, cartQuantity } = useShoppingCart();
